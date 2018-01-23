@@ -1,0 +1,6 @@
+# RxFragmentDemo
+
+基于Rxlifecycle中RxFragment的Fragment源于android.app.Fragment，
+而常规应用中Fragment源于android.support.v4.app.Fragment；
+该Demo主要处理的是这个问题，网络上没有这方面的介绍，我来简单处理提供一下解决方案。
+核心是自定义NewFragmentTabHost，全面替换的v4,这样就能正常使用Rxlifecycle。
